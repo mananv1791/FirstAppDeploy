@@ -1,6 +1,6 @@
 from django.http.response import HttpResponse
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 
 def Homepage(request):
     return HttpResponseRedirect("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
