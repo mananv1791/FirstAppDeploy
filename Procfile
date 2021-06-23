@@ -1,1 +1,1 @@
-web: gunicorn TRIAL.wsgi
+web: gunicorn trial.wsgi
