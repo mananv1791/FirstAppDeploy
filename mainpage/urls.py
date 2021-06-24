@@ -6,3 +6,4 @@ urlpatterns = [
     path('',views.Homepage),
     path('next',views.Homepage1),
 ]
+
